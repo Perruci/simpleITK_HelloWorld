@@ -20,7 +20,10 @@ conda env create -f environment.yml
 Then activate the virtual environment:
 
 ```(bash)
-conda activate sitkpy
+# Windows:
+activate sitkpy
+# OSX / Linux :
+source activate sitkpy
 ```
 
 Finaly launch the application Jupyter Notebook.
